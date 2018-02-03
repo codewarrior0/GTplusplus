@@ -55,7 +55,7 @@ public abstract class GregtechRocketFuelGeneratorBase extends GT_MetaTileEntity_
 
 	@Override
 	public String[] getDescription() {
-		return new String[]{this.mDescription, "Fuel Efficiency: " + this.getEfficiency() + "%", CORE.GT_Tooltip};
+		return new String[]{this.mDescription, "Fuel Efficiency: " + (this.getEfficiency() * 2) + "%", CORE.GT_Tooltip};
 	}
 
 
